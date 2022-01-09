@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css?family=Mali:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .big-section {
+        position: relative;
+        margin-bottom: 0px !important;
+    }
+
+
+    .box-right, .box-left {
+
+        height: 100vh !important;
+        width: 100%;
+        background-color: white;
+    }
+    /* Navbar */
+    .navbar {
+        background-color: white !important;
+    }
+
+    .navbar .navbar-nav li a {
+        color: #7A7A7A !important;
+    }
+
+    .navbar .navbar-nav li a {
+        color: #7A7A7A !important;
+        font-weight: lighter;
+
+        -webkit-transform: perspective(0px) translateZ(0);
+        transform: perspective(0px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 1.50s;
+        transition-duration: 1.50s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:active, .navbar .navbar-nav li a:focus {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        transition-duration: 1.25s;
+        color: #75B79E !important;
+    }
+    /*.collapse .navbar-collapse .navbar-nav {*/
+    /*    background-color: #75B79E !important;*/
+    /*}*/
+
+
+    .navbar-toggler.toggler-example {
+        cursor: pointer;
+    }
+
+    .navbar-brand {
+        font: 32px "Josefin Sans Light";
+        color: #7A7A7A;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin: 11px 30px;
+    }
+
+    .container-right {
+        color: aquamarine;
+        padding: ;
+    }
+
+
+
+
+
+    /*.desc img {*/
+    /*    position: absolute;*/
+    /*    max-width: 100%;*/
+    /*    height: auto;*/
+    /*    top: 20%;*/
+    /*    left: 70%;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*    -ms-transform: translate(-50%, -50%);*/
+    /*    z-index: -1;*/
+    /*}*/
+
+
+
+    .grid {
+    }
+    /* SECTION */
+    .two-section {
+        background-color: ;
+    }
+    .bg-light {
+        background-color: aqua !important;
+    }
+
+    div.nav-link span {
+        font-size: 13px;
+        color: #7A7A7A !important}
+
+    div.nav-link a {
+        font-size: 13px;
+        margin-left: 2px;
+    }
+
+    .big-section {
+
+    }
+
+
+    div.footer span {
+        text-transform: uppercase !important ;
+    }
+
+    .position-fixed {
+        margin-left: 25%;
+    }
+
+
+
+}
+
+/*------------------------------------TABLET MOBILE VERSION----------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------SMALL MOBILE VERSION----------------------------------------------------------------*/
+@media (max-width: 375px) {
+    .animated {
+        animation: none !important;
+    }
+
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.box-right, .box-left {
+    height: 150vh;
+    width: 100%;
+    background-color: white;
+}
+
+.navbar .navbar-nav li a {
+    color: #7A7A7A !important;
+    font-weight: lighter;
+}
+
+.navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:active, .navbar .navbar-nav li a:focus {
+    color: #75B79E !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+button.navbar-toggler{
+    border-color: #7A7A7A  !important;
+    background-color: #75B79E !important;
+}
+
+.navbar .navbar-toggler-icon {
+
+    border-color: pink !important;
+}
+
+
+.btn-getstarted {
+    font: 15px "Josefin Sans Light" !important;
+    font-weight: lighter;
+}
+
+
+
+div.box-right {
+    margin-bottom: 0px;
+}
+
+div.desc {
+    margin-top: 0px;
+}
+
+div.desc span {
+    font-size: 12px;
+}
+
+.desc img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+.btn-getstarted {
+    left: 30% !important;
+    margin-top: 5px;
+}
+
+.footer {
+
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 50px !important;
+    background-color: transparent;
+    color: #7A7A7A;
+    text-align: center;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.big-section {
+    margin: 5px 10px 5px;
+}
+
+.box-left {
+
+
+}
+
+
+.div image {
+
+
+
+}
+
+.desc1 {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-light {
+    background-color: transparent!important;
+}
+
+/*.collapse .navbar-collapse .navbar-nav {*/
+/*    background-color: #75B79E !important;*/
+/*}*/
+
+button.navbar-toggler.navbar-toggler-right {
+    border-color: #7A7A7A;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+
+
+.navbar-brand {
+    font: 32px "Josefin Sans Light";
+    color: #7A7A7A;
+}
+
+
+
+#nav-bar ul li a.active-page
+{
+    color: #75B79E !important;
+    background-color:none !important;
+}
+
+/*.nav-link {*/
+/*    text-transform: uppercase;*/
+/*    margin-top: 20px;*/
+/*    margin-right: 45px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+.container-right {
+    color: aquamarine;
+    padding: ;
+}
+
+
+
+.btn-getstarted {
+    font: 15px "Josefin Sans Light";
+    font-weight: lighter;
+
+}
+
+.desc {
+    position: relative;
+    width: 70%;
+    padding: 5px;
+    background-color: none;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.desc p {
+    font-family: 'Mali', Serif;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px peachpuff;
+    font-weight: 600;
+}
+
+.box-right .btn-getstarted {
+    align-content: center;
+    position: ;
+    font-weight: bold;
+    top: 0%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #75B79E;
+    color: white;
+    padding: 7px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: -20px;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    transition-duration: 1.50s;
+
+}
+
+.btn-getstarted:hover, .btn-getstarted:focus, .btn-getstarted:active  {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-duration: 1s;
+    color: peachpuff;
+}
+
+.info-panel {
+    background-color: white;
+    padding: 15px;
+    margin-top: 80px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-panel h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.info-panel p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #acacac;
+}
+
+div.info-panel img {
+
+    width:600px ;
+}
+
+
+.grid {
+}
+/* SECTION */
+.two-section {
+    background-color:;
+}
+.big-section {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.row {
+    margin: 5px;
+
+}
+
+
+/*---------------------------------------------footer--------------------------------------------------*/
+
+.footer {
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background-color:transparent ;
+    color: #7A7A7A;
+    text-align: center;
+}
+
+div.footer span {
+    margin-top: 30px;
+    text-transform: lowercase;
+    font: 12px "Josefin Sans Light";
+    font-weight: 550;
+}
+
+div.footer a {
+    color: #7A7A7A;
+}
+
+div.footer a:hover {
+    transition-duration: 1s;
+    transition-delay: 0,5s;
+    color: #75B79E;
+}
+
